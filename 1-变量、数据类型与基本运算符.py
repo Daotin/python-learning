@@ -9,8 +9,8 @@ my_height = 1.75  # 浮点数类型（米）
 
 # 2. 计算明年的年龄和身高（假设身高每年增加0.02米）
 #    提示：使用算术运算符
-year_after_age = 10  # 在这里完成明年的年龄计算
-year_after_height = 180  # 在这里完成明年的身高计算
+year_after_age = my_age + 1  # 在这里完成明年的年龄计算
+year_after_height = my_height + 0.02  # 在这里完成明年的身高计算
 
 # 3. 打印包含这些信息的句子
 #    例如: "你好，[你的名字]！你今年[年龄]岁，身高[身高]米。明年你将是[明年年龄]岁，身高[明年身高]米。"
@@ -74,4 +74,17 @@ print(f"is_developer 的类型是: {type(is_developer)}")
 | >= | 大于或等于 | 5 >= 5 | True |
 | <= | 小于或等于 | 5 <= 2 | False |
 
+逻辑运算符 (Logical Operators)
+| 运算符 | 描述 | 示例 | 结果 |
+| --- | --- | --- | --- |
+| and | 逻辑与 | (True and False) | False |
+| or | 逻辑或 | (True or False) | True |
+| not | 逻辑非 | not True | False |
+
 """
+
+# print("5" + 2) 报错，python没有隐式类型转换。
+
+print(f"1 and 2 = {1 and 2}")  # 2
+print(f"1 or 2 = {1 or 2}")  # 1
+print(f"not 1 = {not 1}")  # False
