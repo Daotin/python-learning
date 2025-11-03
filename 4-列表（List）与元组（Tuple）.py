@@ -43,6 +43,8 @@ print(f"反转列表: {my_list[::-1]}")  # 输出: ['e', 'd', 'c', 'b', 'a']
 
 """
 修改列表元素（可变性）
+1、通过下标方式（如 list[index] = value）
+2、使用列表方法（append, insert, remove, pop, clear等）
 """
 fruits = ["apple", "banana", "cherry"]
 print(f"原始列表: {fruits}")

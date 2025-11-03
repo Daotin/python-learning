@@ -3,7 +3,7 @@ for 循环用于遍历任何可迭代对象（如列表、元组、字符串、�
 
 range() 函数是一个常用的序列生成器，它能生成一系列数字。常与for循环结合使用来执行特定次数的循环。
 
-range(stop): 生成从0到stop-1的整数序列。
+range(stop): 生成从0到stop的整数序列（不包括stop）。
 range(start, stop): 生成从start到stop-1的整数序列。
 range(start, stop, step): 生成从start到stop-1，步长为step的整数序列。
 """
